@@ -1,5 +1,6 @@
 import './globals.css';
 import Link from 'next/link';
+import type { ReactNode } from 'react';
 
 const navItems = [
   ['/', 'Pulse'],
@@ -17,8 +18,7 @@ export const metadata = {
   description: 'Cultural intelligence platform',
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
-      <body>
-        <div className="shell
+      <
