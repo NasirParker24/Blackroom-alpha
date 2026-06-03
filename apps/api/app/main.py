@@ -21,3 +21,15 @@ def suggest_ideologies(payload:dict):
 @app.post('/ai/suggest-opportunities')
 def suggest_opportunities(payload:dict):
  return {'signal':payload.get('signal'),'suggestions':['Independent Operator Tools','Human Centered AI']}
+
+@app.get('/briefings/daily')
+def daily_briefing():
+ return {
+ 'title':'BLACKROOM Daily Intelligence Brief',
+ 'top_signal':'AI Job Displacement',
+ 'top_contradiction':'Technology vs Humanity',
+ 'top_narrative':'Reinvention',
+ 'top_ideology':'Creator Independence',
+ 'top_opportunity':'Independent Operator Tools',
+ 'strategic_implication':'Workers increasingly seek autonomy, ownership, and alternative income streams.'
+ }
