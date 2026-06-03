@@ -1,0 +1,7 @@
+{
+  "name": "@blackroom/shared",
+  "version": "0.1.0-alpha",
+  "private": true,
+  "type": "module",
+  "main": "index.ts"
+}
