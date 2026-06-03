@@ -1,3 +1,6 @@
+import PipelineView from '../../components/PipelineView';
+import ScoreBadge from '../../components/ScoreBadge';
+
 type SignalDetailProps = {
   params: {
     id: string;
@@ -16,5 +19,6 @@ const signal = {
   opportunity: 'Independent Operator Tools',
 };
 
-const pipeline = [
-  { label: 'Signal', value: signal.title
+export default function SignalDetailPage({ params }: SignalDetailProps) {
+  return (
+    <main
