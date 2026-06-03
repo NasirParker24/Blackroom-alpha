@@ -20,9 +20,4 @@ export const metadata = {
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
-    <html lang="en">
-      <body>
-        <div className="app-shell">
-          <aside className="sidebar">
-            <div className="brand-block">
-              <
+    <
