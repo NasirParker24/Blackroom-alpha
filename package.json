@@ -1,0 +1,13 @@
+{
+  "name": "blackroom-alpha",
+  "version": "0.1.0-alpha",
+  "private": true,
+  "description": "BLACKROOM cultural intelligence platform alpha monorepo.",
+  "scripts": {
+    "dev:web": "npm --workspace apps/web run dev",
+    "dev:api": "cd apps/api && uvicorn app.main:app --reload --host 0.0.0.0 --port 8000",
+    "lint:web": "npm --workspace apps/web run lint",
+    "build:web": "npm --workspace apps/web run build",
+    "typecheck:web": "npm --workspace apps/web run typecheck"
+  },
+  "work
